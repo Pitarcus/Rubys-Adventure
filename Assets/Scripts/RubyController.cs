@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class RubyController : MonoBehaviour
 {
+    AudioSource audioSource;
+
     public float speed = 3.0f;
 
     public int maxHealth = 5;
@@ -26,6 +28,8 @@ public class RubyController : MonoBehaviour
         animator = GetComponent<Animator>();
 
         currentHealth = maxHealth;
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -74,5 +78,9 @@ public class RubyController : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
 
         Debug.Log(currentHealth + "/" + maxHealth);
+    }
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
     }
 }
