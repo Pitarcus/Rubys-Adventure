@@ -5242,9 +5242,9 @@ GameObject:
   m_Component:
   - component: {fileID: 982405361}
   - component: {fileID: 982405360}
+  - component: {fileID: 982405363}
   - component: {fileID: 982405362}
   - component: {fileID: 982405359}
-  - component: {fileID: 982405363}
   m_Layer: 0
   m_Name: Ruby
   m_TagString: Untagged
@@ -5264,7 +5264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62c649b7dc4037c43aea71d5e2195f48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5.52
+  speed: 3
   maxHealth: 5
 --- !u!212 &982405360
 SpriteRenderer:
@@ -5365,7 +5365,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.03710699, y: 0.64}
+  m_Offset: {x: -0.04125738, y: 0.64}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -5376,7 +5376,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6677351, y: 1.28}
+  m_Size: {x: 0.63638115, y: 1.28}
   m_EdgeRadius: 0
 --- !u!1 &1097392382
 GameObject:
@@ -5767,7 +5767,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.018553495, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5778,7 +5778,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.677107, y: 0.64}
+  m_Size: {x: 0.64, y: 0.64}
   m_EdgeRadius: 0
 --- !u!212 &1785379459
 SpriteRenderer:
@@ -5839,7 +5839,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1785379457}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.9814465, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
