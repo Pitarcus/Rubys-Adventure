@@ -9212,9 +9212,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f453f694addf4275988fac205bc91968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_BoundingShape2D: {fileID: 457340085}
-  m_Damping: 0.5
-  m_MaxWindowSize: -1
 --- !u!114 &2064395750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9241,10 +9238,7 @@ MonoBehaviour:
     NearClipPlane: 0.3
     FarClipPlane: 20
     Dutch: 0
-    ModeOverride: 0
     LensShift: {x: 0, y: 0}
-    GateFit: 2
-    m_SensorSize: {x: 2.0415335, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -9502,11 +9496,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5330035937674407378, guid: 26e98465cbf43ac4ebbf600ad0b93297, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.9814465
+      value: -3.49
       objectReference: {fileID: 0}
     - target: {fileID: 5330035937674407378, guid: 26e98465cbf43ac4ebbf600ad0b93297, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -3.48
       objectReference: {fileID: 0}
     - target: {fileID: 5330035937674407378, guid: 26e98465cbf43ac4ebbf600ad0b93297, type: 3}
       propertyPath: m_LocalPosition.z
